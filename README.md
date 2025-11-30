@@ -8,7 +8,7 @@ A DLL for hiding a process from the Windows process list through intercepting Nt
 - CMake 3.10+
 - C11-enabled compiler (MSVC, MinGW)
 
-## Assembly
+## How to build
 
 ```bash
 mkdir build
