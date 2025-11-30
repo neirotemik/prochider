@@ -21,7 +21,7 @@ How it works
 
 1. The DLL intercepts the NtQuerySystemInformation from ntdll.dll
 2. When requesting a list of processes (SystemProcessInformation) filters the results.
-3. The process in which the DLL is embedded is excluded from the list.
+3. The process whose name you specify in g_ProcessName will be hidden.
 
 Using
 
